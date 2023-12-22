@@ -1,0 +1,30 @@
+.box {
+  width: 170px;
+  height: 169.999px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 0 0 10px;
+  position: relative;
+
+  > p {
+    margin: 0;
+  }
+
+  .title-category {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .price {
+    color: #727272;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

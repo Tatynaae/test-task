@@ -1,0 +1,92 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(107deg, #3186c3 6.46%, #004f86 68.08%);
+
+  .container {
+    width: 90%;
+    padding: 5% 0 1% 0;
+
+    .top {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 0 0 40px 0;
+
+      .first {
+        width: 25%;
+
+        .company {
+          margin: 50px 0 70px 0;
+        }
+        .support {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+        }
+        > p {
+          width: 230px;
+        }
+      }
+      .third {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .fourth {
+        .whatsapp {
+          margin-top: 40px;
+        }
+      }
+
+      .column {
+        > p {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          line-height: 150%;
+
+          > b {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 0 20px 0;
+          }
+
+          .gray-text {
+            color: #e0e0e0;
+            font-size: 15px;
+            font-weight: 300;
+            margin: 20px 0 0 0;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0 0 0;
+
+      p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .social {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}
